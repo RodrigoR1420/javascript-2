@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="interacao">
+        <h1>Interação</h1>
+    </header>
+
+    <section>
+        <div class="contagem">
+            <p class="css">
+                Início: <input type="number" name="ini" id="inicio">
+            </p>
+
+            <p class="css">
+                Fim: <input type="number" name="fini" id="fim">
+            </p>
+
+            <p class="css">
+                Passo: <input type="number" name="pas" id="passo">
+            </p>
+
+            <input id="button" type="button" value="Iniciar Contagem" onclick="contar()">
+        </div>
+        <div class="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="tabuada">
+            <p>
+                Número: <input type="number" name="tabu" id="tabuada">
+                <input type="button" value="Verificar Tabuada" onclick="Verificar()">
+            </p>
+        </div>
+        <div class="result">
+            <select name="select" id="tab" size="10">
+                <option>Digite um número para ver a tabuada:</option>
+            </select>
+        </div>
+    </main>
+
+    <script src="careca.js"></script>
+</body>
+</html>
