@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <H1>Counter</H1>
+    </header>
+
+    <main>
+        <label id="CountLabel">0</label> <br> <br>
+        
+        <div id="buttons">
+            <button id="Count-btn" class="decreaseBtn" onclick="Decrease()">Decrease</button>
+            <button id="Count-btn" class="resetBtn" onclick="Reset()">Reset</button>
+            <button id="Count-btn" class="increaseBtn" onclick="Increase()">Increase</button> <br><br><br>
+        </div>
+    </main>
+
+    <section>
+        <input type="checkbox" name="check" class="MyCheck">
+        <label for="MyCheck">Subscribe</label> <br> <br>
+
+        <input type="radio" name="Payment" class="Visa">
+        <label for="Visa">Visa</label> <br> <br>
+
+        <input type="radio" name="Payment" class="MasterCard">
+        <label for="MasterCard">MasterCard</label> <br> <br>
+
+        <input type="radio" name="Payment" class="PayPal">
+        <label for="Paypal">Paypal</label> <br> <br>
+
+        <button onclick="Submit()" id="btn" type="submit">Submit</button> <br> <br>
+
+        <p class="ResultCheck"></p>
+        <p class="ResultRadio"></p>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

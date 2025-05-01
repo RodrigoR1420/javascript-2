@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#CountLabel{
+    font-size: 5em;
+}
+
+#Count-btn{
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: rgb(156, 227, 250);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    cursor: pointer;
+    transition: background-color 0.50s ;
+}
+
+#Count-btn:hover{
+    background-color: rgb(185, 228, 242);
+}
+
+#Count-btn:active{
+    background-color: aliceblue;
+}
+
+section{
+    text-align: center;
+}
+
+#btn{
+    padding: 6px;
+    font-size: 1em;
+    background-color: rgb(2, 3, 3);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    cursor: pointer;
+    transition: background-color 0.50s ;
+}
+
+#btn:active{
+    background-color: white;
+    color: black;
+}
