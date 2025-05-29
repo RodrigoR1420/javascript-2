@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Painel de Monitoramento</title>
+  <style>
+    body { background: #111; color: white; text-align: center; }
+    h1 { margin-top: 20px; }
+    video { border: 2px solid #fff; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Vigilância em Tempo Real</h1>
+  <img src="{{ url_for('video_feed') }}" width="640" height="480">
+</body>
+</html>
